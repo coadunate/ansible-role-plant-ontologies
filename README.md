@@ -1,38 +1,34 @@
-Role Name
+Plant Ontologies
 =========
 
-A brief description of the role goes here.
+This role installs different ontologies onto a VM.
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+After cloning and before running the role, a `main.yml` file needs to be created which will list the different ontologies that you would like to install.
 
-Role Variables
---------------
+This role comes with **4** YAML files for the P2IRC themes which list the required ontologies for their respective themes. The file names of those themes are listed as under:
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+- Theme 3.1 -> theme3.1ontologies.yml
+- Theme 3.2 -> theme3.2ontologies.yml
+- Theme 3.3 -> theme3.3ontologies.yml
+- Theme 3.5 -> theme.3.5ontologies.yml
 
-Dependencies
-------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+**EXAMPLE 1** - `main.yml` file for installing Ontologies related to P2IRC Theme 3.1.
 
-Example Playbook
-----------------
+    - hosts: host_name_here
+      tasks:
+        - include: theme3.1ontologies.yml
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
 
 License
 -------
 
-BSD
+CC-BY
 
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Coaduante Organization
