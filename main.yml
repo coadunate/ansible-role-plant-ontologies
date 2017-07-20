@@ -1,6 +1,0 @@
----
-
-- hosts: cloud
-  tasks:
-      - include: theme3.3ontologies.yml 
-#test
