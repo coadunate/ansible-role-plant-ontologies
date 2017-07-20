@@ -1,0 +1,17 @@
+---
+# tasks file for theme3.3ontologies
+
+- include: tasks/pato.yml
+- include: tasks/the_gene_ontology.yml
+- include: tasks/planteomeontologies.yml
+- include: tasks/protein_ontology.yml
+- include: tasks/plant_phenology_ontology.yml
+- include: tasks/genotype_ontology.yml
+- include: tasks/chebi_ontology.yml
+- include: tasks/floral_phenotype_ontology.yml
+- include: tasks/units_of_measurement_ontology.yml
+- include: tasks/clinical_measurement_ontology.yml
+- include: tasks/anatomical_entity_ontology.yml
+- include: tasks/biological_spatial_ontology.yml
+- include: tasks/agronomy_ontology.yml
+- include: tasks/genetic_interval_ontology.yml

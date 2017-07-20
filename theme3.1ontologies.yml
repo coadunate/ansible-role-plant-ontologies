@@ -1,0 +1,31 @@
+---
+# tasks file for theme3.1ontologies
+
+
+- include: tasks/pato.yml
+- include: tasks/bio_attributes.yml
+- include: tasks/units_of_measurement_ontology.yml
+- include: tasks/clinical_measurement_ontology.yml
+- include: tasks/measurement_method_ontology.yml
+- include: tasks/anatomical_entity_ontology.yml
+- include: tasks/biological_spatial_ontology.yml
+- include: tasks/planteomeontologies.yml
+- include: tasks/plant_phenology_ontology.yml
+- include: tasks/agronomy_ontology.yml
+- include: tasks/genotype_ontology.yml
+- include: tasks/the_gene_ontology.yml
+- include: tasks/genetic_interval_ontology.yml
+- include: tasks/microbial_phenotype_ontology.yml
+- include: tasks/host_microbe_ontology.yml
+- include: tasks/software_ontology.yml
+- include: tasks/stat_methods_ontology.yml
+- include: tasks/sequence_types_and_features_ontology.yml
+- include: tasks/systems_biology_ontology.yml
+- include: tasks/adverse_events_ontology.yml
+- include: tasks/biological_imaging_methods_ontology.yml
+- include: tasks/kinetic_sim_alg_ontology.yml
+- include: tasks/mathematical_modeling_ontology.yml
+- include: tasks/evidence_and_conclusion_ontology.yml
+- include: tasks/data_use_ontology.yml
+
+
