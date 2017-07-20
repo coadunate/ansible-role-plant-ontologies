@@ -1,2 +1,12 @@
 ---
 # tasks file for theme3.2ontologies
+
+
+- include: pato.yml
+- include: planteomeontologies.yml
+- include: bio_attributes.yml
+- include: units_of_measurement_ontology.yml
+- include: anatomical_entity_ontology.yml
+- include: plant_phenology_ontology.yml
+- include: biological_imaging_methods_ontology.yml
+- include: evidence_and_conclusion_ontology.yml
